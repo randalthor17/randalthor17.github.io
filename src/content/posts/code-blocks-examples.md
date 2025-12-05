@@ -1,9 +1,10 @@
 ---
-title: 'Code blocks examples'
-description: 'The Astro Terminal theme uses Shiki as syntax highlighter, providing beautiful and customizable code highlighting.'
+title: "Code blocks examples"
+description: "The Astro Terminal theme uses Shiki as syntax highlighter, providing beautiful and customizable code highlighting."
 pubDate: 2019-03-10
-author: 'Radek'
+author: "Radek"
 tags: []
+draft: true
 ---
 
 The Astro Terminal theme uses Shiki as syntax highlighter, providing beautiful and customizable code highlighting with a monochrome theme that matches the terminal aesthetic.
@@ -47,6 +48,7 @@ Below you can see many basic presentations of the code blocks you can use depend
 ### A
 
 **Astro:**
+
 ```astro
 ---
 const greeting = "Hello, World!";
@@ -57,14 +59,15 @@ const greeting = "Hello, World!";
 ### B
 
 **Bash:**
+
 ```bash
 echo "Hello, World!"
 ```
 
-
 ### C
 
 **C:**
+
 ```c
 #include <stdio.h>
 int main() {
@@ -74,6 +77,7 @@ int main() {
 ```
 
 **C#:**
+
 ```csharp
 using System;
 class Program {
@@ -84,6 +88,7 @@ class Program {
 ```
 
 **C++:**
+
 ```cpp
 #include <iostream>
 int main() {
@@ -95,6 +100,7 @@ int main() {
 ### D
 
 **Docker:**
+
 ```dockerfile
 FROM node:18-alpine
 WORKDIR /app
@@ -106,11 +112,13 @@ CMD ["npm", "start"]
 ### E
 
 **Elixir:**
+
 ```elixir
 IO.puts "Hello, World!"
 ```
 
 **Erlang:**
+
 ```erlang
 -module(hello).
 -export([world/0]).
@@ -120,6 +128,7 @@ world() -> io:format("Hello, World!~n").
 ### F
 
 **F#:**
+
 ```fsharp
 printfn "Hello, World!"
 ```
@@ -127,6 +136,7 @@ printfn "Hello, World!"
 ### G
 
 **Go:**
+
 ```go
 package main
 import "fmt"
@@ -136,6 +146,7 @@ func main() {
 ```
 
 **GraphQL:**
+
 ```graphql
 type Query {
   hello: String!
@@ -149,6 +160,7 @@ query GetGreeting {
 ### H
 
 **Haskell:**
+
 ```haskell
 main = putStrLn "Hello, World!"
 ```
@@ -156,6 +168,7 @@ main = putStrLn "Hello, World!"
 ### J
 
 **JavaScript:**
+
 ```js
 var x, y, z; // Declare 3 variables
 x = 5; // Assign the value 5 to x
@@ -166,6 +179,7 @@ document.getElementById("demo").innerHTML = "The value of z is " + z + ".";
 ```
 
 **JSX:**
+
 ```jsx
 function Video({ video }) {
   return (
@@ -182,6 +196,7 @@ function Video({ video }) {
 ```
 
 **Java:**
+
 ```java
 public class HelloWorld {
     public static void main(String[] args) {
@@ -191,6 +206,7 @@ public class HelloWorld {
 ```
 
 **JSON:**
+
 ```json
 {
   "message": "Hello, World!",
@@ -202,6 +218,7 @@ public class HelloWorld {
 ### K
 
 **Kotlin:**
+
 ```kotlin
 fun main() {
     println("Hello, World!")
@@ -211,6 +228,7 @@ fun main() {
 ### L
 
 **Lua:**
+
 ```lua
 print("Hello, World!")
 ```
@@ -218,16 +236,19 @@ print("Hello, World!")
 ### M
 
 **Markdown:**
+
 ```markdown
 # Hello, World!
 
 This is a **markdown** example with:
+
 - Lists
-- **Bold** and *italic* text
+- **Bold** and _italic_ text
 - [Links](https://example.com)
 ```
 
 **MATLAB:**
+
 ```matlab
 disp('Hello, World!')
 ```
@@ -235,6 +256,7 @@ disp('Hello, World!')
 ### N
 
 **Nim:**
+
 ```nim
 echo "Hello, World!"
 ```
@@ -242,6 +264,7 @@ echo "Hello, World!"
 ### O
 
 **Objective-C:**
+
 ```objective-c
 #import <Foundation/Foundation.h>
 int main() {
@@ -255,16 +278,19 @@ int main() {
 ### P
 
 **Perl:**
+
 ```perl
 print("Hello, World!\n");
 ```
 
 **PHP:**
+
 ```php
 <?php echo "Hello, World!"; ?>
 ```
 
 **Python:**
+
 ```python
 print("Hello, World!")
 ```
@@ -272,16 +298,19 @@ print("Hello, World!")
 ### R
 
 **R:**
+
 ```r
 cat("Hello, World!\n")
 ```
 
 **Ruby:**
+
 ```ruby
 puts "Hello, World!"
 ```
 
 **Rust:**
+
 ```rust
 fn main() {
     println!("Hello, World!");
@@ -291,6 +320,7 @@ fn main() {
 ### S
 
 **Scala:**
+
 ```scala
 object HelloWorld extends App {
   println("Hello, World!")
@@ -298,6 +328,7 @@ object HelloWorld extends App {
 ```
 
 **SQL:**
+
 ```sql
 SELECT 'Hello, World!' AS greeting;
 
@@ -310,6 +341,7 @@ INSERT INTO messages (id, text) VALUES (1, 'Hello, World!');
 ```
 
 **Svelte:**
+
 ```svelte
 <script>
   let greeting = 'Hello, World!';
@@ -327,6 +359,7 @@ INSERT INTO messages (id, text) VALUES (1, 'Hello, World!');
 ### T
 
 **TOML:**
+
 ```toml
 [package]
 name = "hello-world"
@@ -337,6 +370,7 @@ astro = "^4.0.0"
 ```
 
 **TypeScript:**
+
 ```typescript
 console.log("Hello, World!");
 ```
@@ -344,6 +378,7 @@ console.log("Hello, World!");
 ### V
 
 **Vue:**
+
 ```vue
 <template>
   <div>
@@ -352,14 +387,15 @@ console.log("Hello, World!");
 </template>
 
 <script setup>
-import { ref } from 'vue'
-const greeting = ref('Hello, World!')
+import { ref } from "vue";
+const greeting = ref("Hello, World!");
 </script>
 ```
 
 ### Y
 
 **YAML:**
+
 ```yaml
 greeting: Hello, World!
 author: Example
@@ -373,9 +409,11 @@ features:
 ### Z
 
 **Zig:**
+
 ```zig
 const std = @import("std");
 pub fn main() !void {
     std.debug.print("Hello, World!\n", .{});
 }
 ```
+

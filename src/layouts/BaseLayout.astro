@@ -5,7 +5,7 @@ export interface Props {
   image?: string;
 }
 
-const { title, description = 'A terminal-inspired Astro theme', image } = Astro.props;
+const { title, description = 'A random blog from a random person', image } = Astro.props;
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 const base = import.meta.env.BASE_URL.endsWith('/') ? import.meta.env.BASE_URL : import.meta.env.BASE_URL + '/';
 ---
@@ -36,6 +36,14 @@ const base = import.meta.env.BASE_URL.endsWith('/') ? import.meta.env.BASE_URL :
     
     <link rel="sitemap" href={`${base}sitemap-index.xml`} />
     <link rel="alternate" type="application/rss+xml" title="RSS" href={`${base}rss.xml`} />
+
+    <!-- KaTeX -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.25/dist/katex.min.css" integrity="sha384-WcoG4HRXMzYzfCgiyfrySxx90XSl2rxY5mnVY5TwtWE6KLrArNKn0T/mOgNL0Mmi" crossorigin="anonymous">
+    <script type="module">
+      import renderMathInElement from "https://cdn.jsdelivr.net/npm/katex@0.16.25/dist/contrib/auto-render.mjs";
+      renderMathInElement(document.body);
+    </script>
+    <!-- -->
   </head>
   <body>
     <div class="container center">
@@ -44,7 +52,7 @@ const base = import.meta.env.BASE_URL.endsWith('/') ? import.meta.env.BASE_URL :
           <div class="header__logo">
             <a href={base}>
               <div class="logo">
-                Terminal
+                randalthor17
               </div>
             </a>
           </div>
@@ -53,11 +61,11 @@ const base = import.meta.env.BASE_URL.endsWith('/') ? import.meta.env.BASE_URL :
             <li>
               <ul class="menu__dropdown">
                 <li><a href={`${base}about/`}>About</a></li>
-                <li><a href={`${base}posts/showcase/`}>Showcase</a></li>
+                <!-- <li><a href={`${base}posts/showcase/`}>Showcase</a></li> -->
                 <li><a href={`${base}posts/`}>Posts</a></li>
                 <li><a href={`${base}tags/`}>Tags</a></li>
-                <li><a href={`${base}posts/rich-content/`}>Rich Content</a></li>
-                <li><a href={`${base}posts/code-blocks-examples/`}>Code Examples</a></li>
+                <!-- <li><a href={`${base}posts/rich-content/`}>Rich Content</a></li> -->
+                <!-- <li><a href={`${base}posts/code-blocks-examples/`}>Code Examples</a></li> -->
               </ul>
             </li>
           </ul>
@@ -66,7 +74,7 @@ const base = import.meta.env.BASE_URL.endsWith('/') ? import.meta.env.BASE_URL :
         <nav class="navigation-menu">
           <ul class="navigation-menu__inner menu--desktop">
             <li><a href={`${base}about/`}>About</a></li>
-            <li><a href={`${base}posts/showcase/`}>Showcase</a></li>
+            <!-- <li><a href={`${base}posts/showcase/`}>Showcase</a></li> -->
             <li>
               <ul class="menu">
                 <li class="menu__trigger">Show more ▾</li>
@@ -74,8 +82,8 @@ const base = import.meta.env.BASE_URL.endsWith('/') ? import.meta.env.BASE_URL :
                   <ul class="menu__dropdown">
                     <li><a href={`${base}posts/`}>Posts</a></li>
                     <li><a href={`${base}tags/`}>Tags</a></li>
-                    <li><a href={`${base}posts/rich-content/`}>Rich Content</a></li>
-                    <li><a href={`${base}posts/code-blocks-examples/`}>Code Examples</a></li>
+                    <!-- <li><a href={`${base}posts/rich-content/`}>Rich Content</a></li> -->
+                    <!-- <li><a href={`${base}posts/code-blocks-examples/`}>Code Examples</a></li> -->
                   </ul>
                 </li>
               </ul>
@@ -91,7 +99,7 @@ const base = import.meta.env.BASE_URL.endsWith('/') ? import.meta.env.BASE_URL :
       <footer class="footer">
         <div class="footer__inner">
           <div class="copyright">
-            <span>© 2025 Powered by <a href="https://astro.build">Astro</a></span>
+            <span><a href="https://github.com/randalthor17">randalthor17</a> © 2025 Powered by <a href="https://astro.build">Astro</a></span>
             <span class="separator">::</span>
             <span>Theme made by <a href="https://github.com/panr/hugo-theme-terminal" target="_blank">panr</a></span>
             <span class="separator">::</span>
