@@ -10,7 +10,7 @@ import mdx from "@astrojs/mdx";
 export default defineConfig({
   site: "https://randalthor17.github.io",
   // Only use base path in production (GitHub Pages)
-  base: process.env.NODE_ENV === "production" ? "/astro-theme-terminal" : "/",
+  base: "/",
   integrations: [sitemap(), mdx()],
   markdown: {
     remarkPlugins: [remarkMath],
