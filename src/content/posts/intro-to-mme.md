@@ -17,6 +17,22 @@ In this field, we study why materials behave the way they do, how to get desired
 
 ### "Materials" vs "Metallurgy"
 
-The word "metallurgy" is also very much unknown to most people. Metallurgy is the field focusing on metals, their alloys (think of steel, brass, bronze etc.) and their processing (extraction, casting, forging, welding, heat treatment etc.). This is a very old field, dating back to ancient times when humans first started using metals for tools and weapons, and it is still very important to our daily life. Things such as steel used in construction, copper used in electrical wiring, and aluminium used in aerospace are all products of metallurgy.
+The word "**metallurgy**" is also very much unknown to most people. Metallurgy is the field focusing on metals, their alloys (think of steel, brass, bronze etc.) and their processing (extraction, casting, forging, welding, heat treatment etc.). This is a very old field, dating back to ancient times when humans first started using metals for tools and weapons, and it is still very important to our daily life. Things such as steel used in construction, copper used in electrical wiring, and aluminium used in aerospace are all products of metallurgy.
 
 However, materials science and engineering is a much broader field that encompasses not only metals but also other types of materials such as polymers, ceramics, composites, and more. As such, MME is a more comprehensive field that covers both metallurgy and materials science.
+
+### What to get excited for?
+
+Because of the rapidly advancing technology at this point in time, there are a lot of new advancements in the field of material science. Some topics that I can think of on top of my head are:
+
+- **Aerospace**: Airplane frames are made of lightweight aluminum alloys, titanium, composites such as carbon fiber, and so on. The turbine blades are made of monocrystalline nickel superalloys that can withstand the harsh hot environment inside the turbines. All of these are relatively new inventions in the field, driven by the need for ever lighter but stronger materials. The rocket industry is another matter altogether, being a cutting edge field that is being propelled forward by the advancements in stronger, more space-resilient materials.
+
+- **Biomaterials**: Material science is working hand in hand with biomedical engineering in order to create safe, biocompatible, strong and lightweight materials to make implants, artificial joints and scaffolding, and so on.
+
+- **Energy**: From older lead acid batteries to modern Li-ion, Li-polymer, and even cutting-edge technologies such as solid-state batteries are driven by the advancement of material science. New perovskite solar cells are being developed, which, combined with traditional semiconductor solar cells, offer a new paradigm that will boost solar cell efficiency. In case of nuclear reactors, material science allows them to withstand the high temperatures and continuous neutron bombardment inside them, and material science is enabling cutting-edge research on promising fusion reactor designs such as the Tokomak.
+
+- **Semiconductors**: Semiconductivity is inherently a field of material science. Continuous advancements in material science are enabling Moore's law to stay true, and thus transistors are able to be made smaller, cheaper, and more efficient.
+
+- **Superconductors**: More and more high-temperature superconductors are making projects like Japan's MagLev trains and MRI machines possible. The same technology is being used in particle accelerators and fusion reactors for its ability to make very powerful magnetic fields.
+
+- **Manufacturing**: Novel manufacturing processes such as 3D printing and resin printing had paved the way for fast, hobbyist-grade prototyping, easing R&D significantly.
