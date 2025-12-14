@@ -1,6 +1,72 @@
-<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 128 128">
-  <rect width="128" height="128" fill="#1a170f" rx="16"/>
-  <text x="50%" y="50%" font-family="'Fira Code', monospace" font-size="64" font-weight="600" text-anchor="middle" dominant-baseline="central" fill="#eec35e">
-    &gt;_
-  </text>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="120"
+   height="120"
+   viewBox="0 0 120 120"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   sodipodi:docname="favicon.svg"
+   inkscape:export-filename="favicon.svg"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <path
+     d="m 41.536764,49.906383 4.683761,2.88985 v 0.95512 l -4.616413,2.895973 -0.459193,-0.593889 4.426614,-2.767399 -4.426614,-2.785767 z m 6.422575,9.410381 v -0.71634 h 6.122564 v 0.71634 z"
+     id="text1"
+     style="font-weight:300;font-size:11.939px;font-family:'Fira Code';-inkscape-font-specification:'Fira Code, Light';white-space:pre;fill:#ffffff;stroke:#99c1f1;stroke-width:2.5"
+     inkscape:label="Term"
+     transform="matrix(2.6802847,0,0,2.6802847,-67.617495,-86.374571)"
+     aria-label="&gt;_" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#030b13"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     inkscape:zoom="6.9"
+     inkscape:cx="60.144928"
+     inkscape:cy="60"
+     inkscape:window-width="1916"
+     inkscape:window-height="1031"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1"
+     inkscape:export-bgcolor="#030b13ff" />
+  <defs
+     id="defs1">
+    <rect
+       x="40"
+       y="46.666667"
+       width="42.463768"
+       height="26.811594"
+       id="rect1" />
+  </defs>
+  <g
+     inkscape:label="Gears"
+     transform="translate(60, 60)"
+     id="g11"
+     style="stroke-width:4.5;stroke-dasharray:none">
+    <path
+       style="fill:none;stroke:#99c1f1;stroke-width:4.5;stroke-linecap:butt;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 34.593011,-5.0798556 4.415241,-0.648347 2.589653,0.2517377 7.303667,3.306268 v 4.3403937 l -7.303667,3.306268 -2.589653,0.2517382 -4.415241,-0.6483475 -2.094593,7.8174455 4.147774,1.645994 2.11689,1.512865 4.671944,6.515105 -2.170164,3.75893 -7.978212,-0.788451 -2.36865,-1.076899 -3.499482,-2.769028 -5.722699,5.7227 2.769027,3.499482 1.076898,2.368649 0.788452,7.978212 -3.75893,2.170164 -6.515105,-4.671944 -1.512865,-2.116889 -1.645995,-4.147774 -7.8174453,2.094592 0.6483473,4.41524 -0.2517379,2.589654 -3.3062681,7.303667 h -4.340394 l -3.3062681,-7.303667 -0.2517377,-2.589654 0.6483471,-4.41524 -7.8174453,-2.094592 -1.645995,4.147774 -1.512865,2.116889 -6.515105,4.671944 -3.75893,-2.170164 0.788452,-7.978212 1.076898,-2.368649 2.769027,-3.499482 -5.722699,-5.7227 -3.499482,2.769028 -2.36865,1.076899 -7.978212,0.788451 -2.170164,-3.75893 4.671944,-6.515105 2.11689,-1.512865 4.147774,-1.645994 -2.094593,-7.8174455 -4.415241,0.6483475 -2.589653,-0.2517382 -7.303667,-3.306268 v -4.3403937 l 7.303667,-3.306268 2.589653,-0.2517377 4.415241,0.648347 2.094593,-7.8174454 -4.147774,-1.645994 -2.11689,-1.512865 -4.671944,-6.515106 2.170164,-3.758929 7.978212,0.788451 2.36865,1.076899 3.499482,2.769027 5.722699,-5.722699 -2.769027,-3.499482 -1.076898,-2.368649 -0.788452,-7.978212 3.75893,-2.170164 6.515105,4.671944 1.512865,2.116889 1.645995,4.147774 7.8174453,-2.094592 -0.6483471,-4.41524 0.2517377,-2.589655 3.3062681,-7.303666 h 4.340394 l 3.3062681,7.303666 0.2517379,2.589655 -0.6483473,4.41524 7.8174453,2.094592 1.645995,-4.147774 1.512865,-2.116889 6.515105,-4.671944 3.75893,2.170164 -0.788452,7.978212 -1.076898,2.368649 -2.769027,3.499482 5.722699,5.722699 3.499482,-2.769027 2.36865,-1.076899 7.978212,-0.788451 2.170164,3.758929 -4.671944,6.515106 -2.11689,1.512865 -4.147774,1.645994 z"
+       id="path10" />
+    <circle
+       style="display:none;fill:none;stroke:#99c1f1;stroke-width:4.5;stroke-opacity:1;stroke-dasharray:none"
+       id="path11"
+       inkscape:label="path11"
+       cx="0"
+       cy="0"
+       r="10" />
+  </g>
 </svg>

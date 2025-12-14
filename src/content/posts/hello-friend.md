@@ -5,6 +5,7 @@ pubDate: 2022-01-25
 author: "Radek"
 image: "https://panr.github.io/hugo-theme-terminal-demo/posts/hello/cover.jpg"
 tags: []
+draft: true
 ---
 
 Welcome in demo of the `Terminal` theme. Please, look around and check whether this is something for you. And if you like it, give it a chance.
