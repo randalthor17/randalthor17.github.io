@@ -36,3 +36,20 @@ Because of the rapidly advancing technology at this point in time, there are a l
 - **Superconductors**: More and more high-temperature superconductors are making projects like Japan's MagLev trains and MRI machines possible. The same technology is being used in particle accelerators and fusion reactors for its ability to make very powerful magnetic fields.
 
 - **Manufacturing**: Novel manufacturing processes such as 3D printing and resin printing had paved the way for fast, hobbyist-grade prototyping, easing R&D significantly.
+
+### Prospects in BD and abroad
+
+I'm only in my second semester of university, and as such, my ideas about this part are lacking depth. I'll try to write down what I kmow to the best of my ability.
+
+#### Prospects in BD
+
+I'll be honest, just like every other engineering field in the country, MME has few engineering specific jobs that a graduate would like to work on. If I try to outline what options engineers have here, it's either very specific industry jobs (that don't pay nearly enough, or even when they do, they are quite work-intensive but haypve little scope for innovation), or Govt. job posts such as Assistant Engineer (IDK if I even have to mention how little they pay, but on top of that, the job fields are taken up by Diploma degree holders, and it's downright impossible to get promoted without some sort of "influence"). All that is to say, the best jobs for engineers (including MME graduates) in this country are the rare R&D jobs, or academia. 
+
+As such, there are basically 3 kinds of jobs for MME graduates in this country:
+
+- **Industry**: MME exists in this country because of demands of the steel industry. As such, there is a demand for MME graduates in it. Other than that, the other metal-based industries (aluminium and copper, to name a few), ceramic, glass and polymer (plastics) industries also hide MME graduates.
+
+- **Academia and R&D**: Govt. research institutions such as BCSIR and BSTI offer research positions. Some graduates stay in academia instead, pursuing research in fields such as metallurgy and nanomaterials alongside teaching students. (Some senior teachers are consultants in the industry, and dare I say this pays WELL)
+
+- **Govt. jobs**: There are Govt. jobs for MME graduates, though they are rare. Many engineering graduates end up going the BCS Admin Cadre route though, and MME is no different.
+
