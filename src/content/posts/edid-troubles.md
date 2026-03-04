@@ -65,47 +65,33 @@ Honestly, the main takeaway from this example is that Linux and Hackintosh have 
 
 #### Update:
 
-I just installed a Fedora Silver blue based distro, and I used [this guide](https://www.reddit.com/r/Bazzite/comments/1gajkpg/add_a_custom_resolution/mt9o5by/) to use the EDID on there. For archival's sake, here are the steps:
+I just installed a Fedora Silverblue based distro, and I used [this guide](https://universal-blue.discourse.group/t/custom-edid-bin/1774/5) to use the EDID on there. For archival's sake, here are the steps:
 
-- Install `fpm`:
+- Copy the firmware to `/etc/firmware/edid`:
 
 ```bash
-rpm-ostree update
-rpm-ostree install ruby-devel rubygems rpm-build
-systemctl reboot
-sudo gem install fpm
+sudo mkdir -p /etc/firmware/edid
+sudo cp my_edid.bin /etc/firmware/edid/
 ```
 
-- Make and install the rpm package from the bin:
+- Edit dracut conf to add the edid bin to initramfs:
 
 ```bash
-mkdir -p ~/edid_patch/usr/lib/firmware/edid
-cp my_edid.bin ~/edid_patch/usr/lib/firmware/edid/
-cd ~/edid_patch
-fpm -s dir -t rpm -n edid_patch .
+echo 'install_items+=" /etc/firmware/edid/edid.bin "' | sudo tee /etc/dracut.conf.d/99-local.conf
 ```
 
-Use `ls` to find the exact name of the generated rpm file, as it can vary from the below
+- Edit kernel args to add `/etc/firmware` to kernel's firmware path, and then make the kernel use the edid
 
 ```bash
-rpm-ostree install edid_patch-1.0-1.x86_64.rpm
-```
-- Update initramfs:
-
-```bash
-echo 'install_items+=" /usr/lib/firmware/edid/my_edid.bin "' | sudo tee /etc/dracut.conf.d/99-local.conf
-rpm-ostree initramfs --enable
+rpm-ostree kargs --append-if-missing=firmware_class.path=/etc/firmware
+rpm-ostree kargs --append-if-missing=drm.edid_firmware=edid/edid.bin
 ```
 
-- Add the kernel argument, then reboot
+You can also specify a specific output port such as `HDMI-A-1:edid/edid.bin`
 
+- Regenerate the initramfs and reboot
 ```bash
-rpm-ostree kargs --append=drm.edid_firmware=edid/my_edid.bin
-```
-
-You can also specify a specific output port such as `HDMI-A-1:edid/my_edid.bin`
-
-```bash
+rpm-ostree initramfs --enable
 systemctl reboot
 ```
 
